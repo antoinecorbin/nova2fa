@@ -1,0 +1,18 @@
+{
+  "name": "antoinecorbin/nova2fa",
+  "description": "Package Laravel Nova pour double authentification",
+  "type": "library",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Antoinecorbin\\Nova2FA\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Antoinecorbin\\Nova2FA\\Providers\\Nova2FAServiceProvider"
+      ]
+    }
+  }
+}
